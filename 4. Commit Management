@@ -1,0 +1,10 @@
+A commit is a saved snapshot of your staged changes.
+
+git commit -m "message"	--- Save staged changes
+git commit -am "message" --- Stage and commit modified tracked files
+git log	 ----- View commit history
+git log --oneline ---- Compact commit history
+git show --- View latest commit details
+git diff --- Compare unstaged changes
+git diff --staged --- Compare staged changes
+git commit --amend --- Modify the latest commit
