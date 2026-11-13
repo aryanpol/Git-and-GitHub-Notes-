@@ -1,0 +1,11 @@
+A branch allows you to work on a separate version of your project without directly changing the main branch
+
+git branch	List local branches
+git branch branch-name	Create a branch
+git switch branch-name	Switch branches
+git switch -c branch-name	Create and switch branch
+git checkout branch-name	Switch branches (older syntax)
+git branch -d branch-name	Delete merged branch
+git branch -D branch-name	Force-delete branch
+git branch -a	List all local and remote-tracking branches
+
