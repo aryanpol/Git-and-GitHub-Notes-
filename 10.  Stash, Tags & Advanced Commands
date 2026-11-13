@@ -1,0 +1,33 @@
+A. Stash commands
+Stash temporarily stores unfinished changes so you can switch tasks.
+Command	Application
+git stash	Temporarily save changes
+git stash push -m "message"	Save with description
+git stash list	View saved stashes
+git stash apply	Restore latest stash but keep it
+git stash pop	Restore and remove latest stash
+git stash drop	Delete a stash
+
+
+Tag commands
+Tags mark important versions of your project.
+Command	Application
+git tag	List tags
+git tag v1.0	Create lightweight tag
+git tag -a v1.0 -m "Release 1.0"	Create annotated tag
+git show v1.0	View tag details
+git push origin v1.0	Push a specific tag
+git push origin --tags	Push all tags
+git tag -d v1.0	Delete local tag
+
+Useful advanced commands
+Command	Application
+git blame file.py	Identify who changed each line
+git shortlog -sn	Show commit counts by author
+git reflog	View recent HEAD and branch movements
+git cherry-pick commit-id	Apply a particular commit
+git bisect start	Start searching for a problematic commit
+git archive	Create an archive of repository files
+git grep "keyword"	Search tracked files
+
+
