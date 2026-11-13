@@ -1,0 +1,8 @@
+Remote means a repository hosted somewhere else, usually GitHub.
+
+git remote -v	View remote URLs
+git remote add origin URL	Connect GitHub repository
+git remote remove origin	Remove remote connection
+git remote rename origin upstream	Rename remote
+git remote set-url origin URL	Change remote URL
+git remote show origin	View remote information
