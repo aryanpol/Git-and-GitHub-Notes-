@@ -1,0 +1,9 @@
+Staging means selecting changes that you want to include in your next commit.
+
+git add file.py	--- Stage a particular file
+git add .	--- Stage changes in current directory
+git add -A	--- Stage all changes across repository
+git add *.py	--- Stage matching Python files
+git restore --staged file.py --- Remove file from staging
+git rm file.py	--- Delete file and stage deletion
+git mv old.py new.py --- Rename or move a tracked file
