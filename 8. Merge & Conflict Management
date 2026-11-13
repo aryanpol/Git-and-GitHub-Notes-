@@ -1,0 +1,6 @@
+Merge combines changes from one branch into another.
+
+git merge branch-name	Merge another branch
+git merge --abort	Abort an ongoing merge
+git mergetool	Open configured merge tool
+git diff --check	Check whitespace errors
