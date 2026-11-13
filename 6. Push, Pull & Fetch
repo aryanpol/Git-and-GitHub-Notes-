@@ -1,0 +1,14 @@
+These commands synchronize your local repository with GitHub.
+
+git push	Upload commits to GitHub
+git push origin main	Push main branch
+git push -u origin main	Push and set upstream
+git pull	Download and integrate remote changes
+git pull origin main	Pull changes from main
+git fetch	Download remote updates without merging
+git fetch --all	Fetch from all remotes
+git push --force-with-lease	Safely attempt a force push
+
+Difference between fetch and pull:
+- fetch = Download remote updates.
+- pull = Fetch + integrate changes into your current branch.
