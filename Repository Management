@@ -1,0 +1,7 @@
+A repository (repo) is a project managed by Git.
+
+git init	----  Initialize a new Git repository
+git clone URL	----  Download an existing repository
+git status	----  Check current repository status
+git rev-parse --show-toplevel	 Show repository root directory
+git ls-files	---- List tracked files
