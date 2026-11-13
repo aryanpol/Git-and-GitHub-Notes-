@@ -1,0 +1,10 @@
+These commands help you correct mistakes.
+
+git restore file.py	Discard unstaged changes
+git restore --staged file.py	Unstage a file
+git reset --soft HEAD~1	Undo last commit, keep changes staged
+git reset --mixed HEAD~1	Undo last commit, keep changes unstaged
+git reset --hard HEAD~1	Remove last commit and discard associated changes
+git revert commit-id	Create a new commit that reverses another commit
+git clean -n	Preview untracked files to delete
+git clean -f	Delete untracked files
