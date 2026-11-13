@@ -1,0 +1,18 @@
+Most Important Git Commands – Quick Revision Sheet
+These are the commands I recommend memorizing first.
+Priority	Command	Remember it as
+1	git init	Start Git
+2	git clone	Download project
+3	git status	Check changes
+4	git add .	Select changes
+5	git commit -m	Save snapshot
+6	git log --oneline	View history
+7	git remote -v	Check connection
+8	git push	Upload
+9	git pull	Download + integrate
+10	git fetch	Download updates
+11	git branch	Manage branches
+12	git switch -c	Create branch
+13	git merge	Combine branches
+14	git stash	Temporarily save work
+15	git revert	Undo a commit safely
