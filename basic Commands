@@ -1,0 +1,7 @@
+Git Setup & Configuration
+git --version	----  Check Git version
+git config --global user.name "name"  ----	Set username
+git config --global user.email "email" ----	Set email
+git config --global --list ----	View all configurations
+git config user.name ---- Check current repository username
+git config --global init.defaultBranch main ---- Set default branch name
